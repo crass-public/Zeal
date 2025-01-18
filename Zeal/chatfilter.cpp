@@ -302,6 +302,7 @@ char* __fastcall serverGetString(int stringtable, int unused, int string_id, boo
     }
 
     std::vector<int> pet_sayings{
+    438, //Taunting attacker, Master.
     555, //%1 tells you, 'I am unable to wake %2, master.'
     5501 //%1 tells you, 'Attacking %2 Master.'
     };
