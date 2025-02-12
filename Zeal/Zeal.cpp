@@ -60,6 +60,7 @@ ZealService::ZealService()
 	cycle_target = std::make_shared<CycleTarget>(this);
 	assist = std::make_shared<Assist>(this);
 	experience = std::make_shared<Experience>(this);
+	tell_notification = std::make_shared<TellNotification>(this);
 	mem_check(__LINE__);
 	chat_hook = std::make_shared<chat>(this, ini.get());
 	chatfilter_hook = std::make_shared<chatfilter>(this, ini.get());
@@ -274,6 +275,7 @@ ZealService::~ZealService()
 	chat_hook.reset();
 	chatfilter_hook.reset();
 	experience.reset();
+	tell_notification.reset();
 	cycle_target.reset();
 	assist.reset();
 	camera_mods.reset();

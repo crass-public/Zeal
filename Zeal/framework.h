@@ -32,6 +32,7 @@
 #include "assist.h"
 #include "outputfile.h"
 #include "experience.h"
+#include "tell_notification.h"
 #include "buff_timers.h"
 #include "player_movement.h"
 #include "spellsets.h"

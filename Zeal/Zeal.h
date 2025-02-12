@@ -39,6 +39,7 @@ public:
 	//other features
 	std::shared_ptr<OutputFile> outputfile = nullptr;
 	std::shared_ptr<Experience> experience = nullptr;
+	std::shared_ptr<TellNotification> tell_notification = nullptr;
 	std::shared_ptr<CycleTarget> cycle_target = nullptr;
 	std::shared_ptr<Assist> assist = nullptr;
 	std::shared_ptr<BuffTimers> buff_timers = nullptr;

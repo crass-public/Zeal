@@ -261,6 +261,9 @@
     <ClInclude Include="assist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="tell_notification.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -445,6 +448,9 @@
     </ClCompile>
     <ClCompile Include="assist.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tell_notification.cpp">
+      <Filter>Source Files\other</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
